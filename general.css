@@ -1,0 +1,9 @@
+body {
+  font-family: Roboto, Arial;
+  background-color: #5a0a0a;
+  background-image: 
+  url(Thumbnails/images.jpg);
+  background-size: 1400px;
+  background-attachment: fixed;
+  z-index: 0;
+}

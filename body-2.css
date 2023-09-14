@@ -1,0 +1,79 @@
+.graphics-plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+.basic-container,
+.standard-container,
+.premium-container {
+background-color: aliceblue;
+  display: flex;
+  height: 500px;
+  width: 350px;
+  margin-right: 34px;
+  border-radius: 40px;
+  border-width: 15px;
+  border-style: solid;
+  transition:  0.15s;
+  justify-content: center;
+}
+.basic-container:hover,
+.standard-container:hover,
+.premium-container:hover {
+ box-shadow: 5px 5px 5px 10px rgba(0, 0, 0,0.15);
+}
+
+.basic-file,
+.standard-file,
+.premium-file {
+  display: flex;
+flex-direction: row;
+margin-top: 19px;
+}
+
+.basic-container {
+  border-color: rgb(128, 247, 9);
+
+
+
+}
+
+.standard-container {
+  border-color: rgb(99, 165, 187);
+
+
+
+}
+
+.premium-container {
+  border-color: rgb(199, 13, 53);
+
+
+
+}
+
+@media (min-width: 320px) {
+  /* For minimum size */
+}
+
+@media (max-width: 1024px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 480px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 768px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 1290px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 5000px) {
+  /* Add your mobile friendly styles here */
+}

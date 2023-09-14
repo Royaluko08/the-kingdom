@@ -1,0 +1,114 @@
+.main-pics {
+  width: 480px;
+  max-width: 1000px;
+  margin-top: 100px;
+
+}
+
+.what-we-offer {
+
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+margin: auto;
+
+}
+
+.offer-button {
+  color: white;
+  font-family: 'Montserrat', Arial;
+  font-size: 20px;
+  margin-left: 30px;
+  background-color: #5a0a0a;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.15s;
+}
+
+.offer-button:hover {
+  color: rgb(255, 255, 255);
+
+}
+
+.graphics-container,
+.web-ster,
+.lessons {
+  display: flex;
+  position: relative;
+ width: 100%;
+  max-width: 400px;
+height: 200px;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 12px;
+  background-image: url(Thumbnails/blur-1366x768.jpg);
+  background-size: 399px;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+}
+
+.web-ster {
+  background-image: url(Thumbnails/download.jpg);
+  
+}
+
+.graphics,
+.web-ster-1,
+.lessons-1 {
+position: absolute;
+  color: white;
+  font-size: 34px;
+  font-family: 'Roboto', Arial;
+  margin-top: 20px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.web-ster-1 {
+  margin-left: 20px;
+}
+
+
+.graphics:hover,
+.web-ster-1:hover,
+.lessons-1:hover {
+  text-decoration: underline;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) {
+  /* For minimum size */
+}
+
+@media (max-width: 1024px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 480px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 768px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 1290px) {
+  /* Add your mobile friendly styles here */
+}
+
+@media (max-width: 5000px) {
+  /* Add your mobile friendly styles here */
+}

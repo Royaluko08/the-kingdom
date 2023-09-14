@@ -1,0 +1,11 @@
+.headr {
+  display: flex;
+position: fixed;
+height: 60px;
+top: 0px;
+left: 0px;
+right: 0px;
+background-color: #5a0a0a;
+margin: auto;
+}
+
